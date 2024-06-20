@@ -459,7 +459,7 @@ in.add(button2);
              ResultSet set = pst.executeQuery();
              // insert in the text area using reult set
               set.next();
-             area.setText(set.getString("data"));
+             area.setText(set.getString("Data"));
      
             
            

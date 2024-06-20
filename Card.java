@@ -475,7 +475,7 @@ in.add(button2);
 
          // add 
          if(e.getSource()==add){
-            String dataS="";
+          
           try {
             // first load the class 
               Class.forName("com.mysql.cj.jdbc.Driver");
